@@ -2,22 +2,18 @@ import React from 'react';
 import '../style/Home.css';
 
 //Importar componentes
-import Header from '../components/sections/Header';
+import Inicio from '../components/sections/Inicio';
+import Guias from '../components/sections/Guias'
+import Recursos from '../components/sections/Recursos'
+import Footer from  '../components/sections/Footer'
 
 function App() {
     return (
     <>
-    <div className="App">
-       <header id="inicio">
-       <Header />
-      </header>
-    </div>
-      <section id="guias">
-        <div id="heading"></div>
-      </section>
-      <section id="recursos">
-        <div id="heading"></div>
-      </section>
+    <Inicio/>
+    <Guias/>
+    <Recursos/>
+    <Footer/>
     </>
   );
 }

@@ -1,0 +1,62 @@
+#Recursos {
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#recurso1 {
+  background: linear-gradient(45deg, rgba(255,155,53,1) 0%, rgba(255,98,247,1) 100%);
+}
+
+.txtrecur1 {
+  margin-top: 135px;
+  margin-left: 60px;
+  color: #fff;
+  font-family: Quicksand;
+}
+
+.txtrecur1 h3 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+
+.txtrecur1 p {
+  font-size: 1.2rem;
+}
+
+.txtrecur2 {
+  margin-top: 135px;
+  margin-left: 60px;
+  font-family: Quicksand;
+}
+
+.txtrecur2 h3 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 40px;
+  color: rgba(255,155,53,1);
+}
+
+.txtrecur2 p {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+.zondes2 {
+  width: 80%;
+  height: 40%;
+  border: 2px solid #000;
+  margin-left: 60px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.icondow2 {
+  font-size: 2rem;
+  position: absolute;
+  right: 5%;
+}

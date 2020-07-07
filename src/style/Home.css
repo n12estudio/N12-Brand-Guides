@@ -18,13 +18,7 @@
       -webkit-box-pack: center;
               justify-content: center;
     }
-    #guias {
-      background: #2b76ff;
-    }
-    #recursos {
-      background: #ff65ef
-    }
-    
+
     #heading {
       width: 120px;
       height: 20px;
