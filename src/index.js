@@ -4,6 +4,8 @@ import './style/index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './pages/Home';
 import * as serviceWorker from './serviceWorker';
+// Cargar tipo de letra Nunito
+require('typeface-nunito')
 
 ReactDOM.render(
   <React.StrictMode>

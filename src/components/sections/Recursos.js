@@ -8,7 +8,7 @@ class Recursos extends React.Component{
 
     render() {
         return (
-            <section id="Recursos">
+            <section id="recursos">
             <div id="recurso1">
                 <div class="txtrecur1">
                     <h3>RECURSOS</h3>

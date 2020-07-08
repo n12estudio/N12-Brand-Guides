@@ -1,0 +1,64 @@
+.zonacontac {
+    background: #F7F7F7;
+    height: 260px;
+    font-family: Nunito;
+}
+
+.txtcontac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 70px;
+}
+
+.txtcontac h3 {
+    font-weight: bold;
+}
+
+.btnscontac {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    font-size: 3.5rem;
+    color: #FF3366;
+}
+
+.btnwhatsapp {
+    margin-left: 3.5rem;
+}
+
+.zonainfo {
+    height: 330px;
+    display: grid;
+    grid-template-columns: 0.1fr 0.8fr .1fr;
+}
+
+.webn12 {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    margin-top: 20px;
+    font-family: Nunito;
+    color: #939191;
+}
+
+.n12est {
+    position: absolute;
+    right: 10%;
+}
+
+.Footertxt {
+    margin-top: 30px;
+    font-family: Nunito;
+    color: #A2A2A2;
+}
+
+.LogoFooter {
+    display: flex;
+    justify-content: center;
+}
+
+.LogoFooter img{
+    margin-top: 50px;
+    max-width: 220px;
+} 
