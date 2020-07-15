@@ -1,10 +1,36 @@
-#guias {
-  display: grid;
-    grid-template-columns: 1fr 1fr;
+@media only screen and (max-width: 767px) {
+  .guia1 {
+    height: 100vh;
+  }
+
+  .txtguia1 {
+    margin-top: 6rem !important;
+    margin-left: 0.7rem !important;
+  }
+
+  .txtguia2 {
+    margin-top: 6rem !important;
+    margin-left: 0.7rem !important;
+  }
+
+  .zondes1 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 }
 
-#guia1 {
+#guias {
+  width: 100vw;
+  height: 100vh;
+}
+
+.guia1 {
   background: linear-gradient(45deg, #316AFF 0%, #06BFFF 100%);  
+}
+
+.guia2 {
+  height: 600px;
+  z-index: 50;
 }
 
 .txtguia1 {
@@ -15,7 +41,7 @@
 }
 
 .txtguia1 h3 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 600;
   margin-left: 20px;
   margin-bottom: 40px;
@@ -59,8 +85,12 @@
   display: flex;
 }
 
+.txtdes1 a {
+  color: #000;
+}
+
 .icondow1 {
   font-size: 2rem;
   position: absolute;
-  right: 5%;
+  right: 12%;
 }

@@ -1,70 +1,24 @@
  
   /* Estilo del Inicio */
-  header {
+  .Inicio {
     width: 100vw;
     height: 100vh;
     background: linear-gradient(45deg, #FF61FC 0%, #456FEB 60%, #316AFF 100%);
     display: flex;
   }
-  
-  /* Estilo Zona de Marca */
-  nav {
-    width: 100vw;
-    height: 160px;
-    display: grid;
-    grid-template-columns: 0.2fr 0.8fr;
-    position: fixed;
-  }
-  
-  #marca,
-  #menu,
-  ul {
+
+  .contini {
     display: flex;
-    -webkit-box-align: center;
-            align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10rem;
   }
   
-  #marca {
-    padding-left: 40px;
-  }
-  
-  #logo {
-    cursor: pointer;
-  }
-  
-  #txt-marca {
-    width: 120px;
-    height: 20px;
+  .txtini {
     color: #fff;
-    font-family: Nunito;
-    margin-left: 20px;
-    opacity: 1;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-  }
-  
-  .Navlogo {
-    max-width: 55px;
-  }
-  /* Estilo Barra de Navegacion */
-   
-  li {
-    margin-left: 20px;
-    list-style: none;
-  }
-  li a {
-    width: 80px;
-    height: 20px;
-    color: #fff;
-    display: block;
-    border-radius: 90px;
-    text-decoration: none;
-    font-family: Nunito;
   }
 
-  /*** Hero Section Styles ***/
-
-  #portada {
+  .Portada {
     width: 100vw;
     height: calc(100vh - 160px);
     display: -webkit-box;
@@ -78,8 +32,9 @@
   }
 
 .portLogo {
-  max-width: 450px;
-  margin-top: -20%;
+  width: 90%;
+  max-width: 28rem;
+  margin-left: -18px;
 }
 
 .titulo {
@@ -97,19 +52,38 @@
   margin-top: 10px;
 }
 
-a.btn-compartir {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  text-decoration: none;
-  height: 55px;
-  max-width: 180px;
+.btn-compartir {
   margin: 35px auto;
-  border: 3px solid;
-  border-radius: 30px;
   font-family: Nunito;
   font-size: 1.4rem;
+  color: #fff;
+  border-color: #fff;
+  border-radius: 30px;
+  border-width: 3px;
+  max-width: 150px;
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-compartir:hover {
+  color: #746bef !important;
+  background-color: #fff;
+  border-color: #fff;
+}
+
+.btn-compartir:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+
+.btn-outline-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(0, 0, 0, 0);
+}
+
+.btn.btn-outline-primary.btn-lg:active {
+  background-color: #fff;
+  color: #746bef;
+  border-color: #746bef;
 }
 
 /* Flecha Rebotante */
@@ -176,4 +150,10 @@ a.btn-compartir {
   -moz-animation: rebotante 2s infinite;
   -webkit-animation: rebotante 2s infinite;
   animation: rebotante 2s infinite;
+}
+
+/* ReactStrap */
+
+.container {
+  margin: 0px;
 }

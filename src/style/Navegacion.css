@@ -1,0 +1,33 @@
+/* Estilo Zona de Marca */
+nav {
+    height: 100px;
+    display: grid;
+    position: fixed;
+    font-size: 1.2rem;
+    font-weight: 700;
+    z-index: 100;
+    }   
+
+  /* Estilo Barra de Navegacion */
+   
+li {
+    margin-left: 20px;
+    list-style: none;
+  }
+li a {
+    width: 80px;
+    height: 20px;
+    color: #fff;
+    display: block;
+    border-radius: 90px;
+    text-decoration: none;
+    font-family: Nunito;
+  }
+
+#menu,
+ul {
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    margin-bottom: 0px;
+  }

@@ -1,11 +1,8 @@
 import React from 'react';
 import '../style/Home.css';
+import {Inicio, Guias, Recursos, Footer} from '../components/sections/index'
 
-//Importar componentes
-import Inicio from '../components/sections/Inicio';
-import Guias from '../components/sections/Guias'
-import Recursos from '../components/sections/Recursos'
-import Footer from  '../components/sections/Footer'
+
 
 function App() {
     return (

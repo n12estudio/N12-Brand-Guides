@@ -1,10 +1,40 @@
-#recursos {
-  display: grid;
-    grid-template-columns: 1fr 1fr;
+@media only screen and (max-width: 767px) {
+  #recursos {
+    margin-top: 40rem;
+  }
+
+  .recurso1 {
+    height: 100vh;
+  }
+
+  .txtrecur1 {
+    margin-top: 6rem !important;
+    margin-left: 0.7rem !important;
+  }
+
+  .txtrecur2 {
+    margin-top: 6rem !important;
+    margin-left: 0.7rem !important;
+  }
+
+  .zondes2 {
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
 }
 
-#recurso1 {
+#recursos {
+  width: 100vw;
+  height: 100vh;
+}
+
+.recurso1 {
   background: linear-gradient(45deg, #FF9C33 0%, #FF61FC 100%);
+}
+
+.recurso2 {
+  height: 600px;
+  z-index: 50;
 }
 
 .txtrecur1 {
@@ -15,7 +45,7 @@
 }
 
 .txtrecur1 h3 {
-  font-size: 4rem;
+  font-size: 3.5rem;
   font-weight: 600;
   margin-left: 20px;
   margin-bottom: 40px;
@@ -58,5 +88,6 @@
 .icondow2 {
   font-size: 2rem;
   position: absolute;
-  right: 5%;
+  right: 12%;
 }
+

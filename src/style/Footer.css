@@ -1,7 +1,17 @@
+@media only screen and (max-width: 767px) {
+    .zonacontac {
+      margin-top: 40rem;
+    }
+  }
+
 .zonacontac {
     background: #F7F7F7;
     height: 260px;
     font-family: Nunito;
+}
+
+.footern12 {
+    width: 100vw;
 }
 
 .txtcontac {
@@ -9,6 +19,7 @@
     justify-content: center;
     align-items: center;
     padding-top: 70px;
+    text-align: center;
 }
 
 .txtcontac h3 {
@@ -21,6 +32,9 @@
     align-items: center;
     padding-top: 40px;
     font-size: 3.5rem;
+}
+
+.btnscontac a {
     color: #FF3366;
 }
 
@@ -29,28 +43,27 @@
 }
 
 .zonainfo {
-    height: 330px;
-    display: grid;
-    grid-template-columns: 0.1fr 0.8fr .1fr;
+    height: 40vh;
 }
 
 .webn12 {
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr;
     margin-top: 20px;
     font-family: Nunito;
     color: #939191;
 }
 
 .n12est {
-    position: absolute;
-    right: 10%;
+    margin-top: 20px;
+    font-family: Nunito;
+    color: #939191;
+    text-align: end;
 }
 
 .Footertxt {
     margin-top: 30px;
     font-family: Nunito;
     color: #A2A2A2;
+    text-align: center;
 }
 
 .LogoFooter {
@@ -59,6 +72,6 @@
 }
 
 .LogoFooter img{
-    margin-top: 50px;
     max-width: 220px;
-} 
+    margin-bottom: 50px;
+}
