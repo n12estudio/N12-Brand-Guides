@@ -31,3 +31,9 @@ ul {
             align-items: center;
     margin-bottom: 0px;
   }
+
+  #menu a:hover {
+    color: #adb5bd;
+    text-decoration: none;
+    transition: 0.5s;
+}

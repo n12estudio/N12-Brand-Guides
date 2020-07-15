@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../style/Guias.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { faDownload, faChevronCircleRight } from '@fortawesome/free-solid-svg-icons'
 import { Container, Row, Col } from 'reactstrap';
 import Pdfn12 from '../../pdf/N12-Clientes.pdf'
 
@@ -12,9 +12,9 @@ function Guias() {
                     <Col sm="12" md="6" className="guia1">
                         <div class="txtguia1">
                         <h3>GUÍAS</h3>
-                        <p>01 Manual de marca</p>
-                        <p>02 Guía de uso para redes sociales</p>
-                        <p>03 Lorem</p>
+                        <a href="#guias"><p><FontAwesomeIcon icon={faChevronCircleRight} className="frechader"/> 01 Manual de marca</p></a>
+                        <a href="#guias"><p><FontAwesomeIcon icon={faChevronCircleRight} className="frechader"/> 02 Guía de uso para redes sociales</p></a>
+                        <a href="#guias"><p><FontAwesomeIcon icon={faChevronCircleRight} className="frechader"/> 03 Lorem</p></a>
                         </div>
                     </Col>
                     <Col sm="12" md="6" className="guia2">

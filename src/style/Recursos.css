@@ -91,3 +91,14 @@
   right: 12%;
 }
 
+.txtrecur1 p:hover {
+  color: #6c757d;
+}
+
+.txtrecur1 p {
+  color: #fff;
+}
+
+.txtrecur1 a {
+  text-decoration:none;
+}

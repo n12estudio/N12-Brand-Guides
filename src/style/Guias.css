@@ -94,3 +94,15 @@
   position: absolute;
   right: 12%;
 }
+
+.txtguia1 p:hover {
+  color: #6c757d;
+}
+
+.txtguia1 p {
+  color: #fff;
+}
+
+.txtguia1 a {
+  text-decoration:none;
+}

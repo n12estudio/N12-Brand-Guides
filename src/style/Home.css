@@ -26,3 +26,7 @@
       border-radius: 90px;
       margin-top: 40px;
     }
+
+    html {
+      scroll-behavior: smooth;
+    }

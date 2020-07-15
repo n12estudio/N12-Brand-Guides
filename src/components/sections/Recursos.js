@@ -1,7 +1,7 @@
 import React from 'react';
 import '../../style/Recursos.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDownload } from '@fortawesome/free-solid-svg-icons'
+import { faDownload, faChevronCircleRight } from '@fortawesome/free-solid-svg-icons'
 import { Container, Row, Col } from 'reactstrap';
 import Pdfn12 from '../../pdf/N12-Clientes.pdf'
 
@@ -12,8 +12,8 @@ function Recursos() {
                     <Col sm="12" md="6" className="recurso1">
                         <div class="txtrecur1">
                         <h3>RECURSOS</h3>
-                        <p>01 Logotipos</p>
-                        <p>02 Texturas complementarias</p>
+                        <a href="#recursos"><p><FontAwesomeIcon icon={faChevronCircleRight} className="frechader"/> 01 Logotipos</p></a>
+                        <a href="#recursos"><p><FontAwesomeIcon icon={faChevronCircleRight} className="frechader"/> 02 Texturas complementarias</p></a>
                         </div>
                     </Col>
                     <Col sm="12" md="6" className="recurso2">

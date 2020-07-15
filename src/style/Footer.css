@@ -75,3 +75,8 @@
     max-width: 220px;
     margin-bottom: 50px;
 }
+
+.btnscontac a:hover {
+    color: #ff993d;
+    transition: 0.6s;
+}
