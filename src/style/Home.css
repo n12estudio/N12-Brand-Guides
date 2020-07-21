@@ -1,16 +1,16 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    overflow-x: hidden;
-    overflow-y: scroll;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 
-    /*** Estilo de las secciones ***/
-    section {
+body {
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+/*** Estilo de las secciones ***/
+/* section {
       width: 100vw;
       height: 100vh;
       display: -webkit-box;
@@ -25,8 +25,8 @@
       background: #fff;
       border-radius: 90px;
       margin-top: 40px;
-    }
+    } */
 
-    html {
-      scroll-behavior: smooth;
-    }
+html {
+  scroll-behavior: smooth;
+}

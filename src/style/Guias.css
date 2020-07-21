@@ -16,7 +16,7 @@
   .zondes1 {
     margin-left: auto !important;
     margin-right: auto !important;
-}
+  }
 }
 
 #guias {
@@ -25,7 +25,7 @@
 }
 
 .guia1 {
-  background: linear-gradient(45deg, #316AFF 0%, #06BFFF 100%);  
+  background: linear-gradient(45deg, #316aff 0%, #06bfff 100%);
 }
 
 .guia2 {
@@ -61,7 +61,7 @@
   font-size: 4rem;
   font-weight: 600;
   margin-bottom: 40px;
-  color: #316BFC;
+  color: #316bfc;
 }
 
 .txtguia2 p {
@@ -70,15 +70,20 @@
 }
 
 .zondes1 {
-  width: 80%;
-  height: 40%;
-  border: 3px solid #707070;
-  margin-left: 60px;
-  margin-top: 40px;
+  /* width: 80%; */
+  /* height: 40%; */
+  /* border: 3px solid #707070; */
+  /* margin-left: 60px;
+  margin-top: 40px; */
+  /* min-height: 60vh; */
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 4rem;
+}
+
+.zondes1 .embed-responsive {
+  min-height: 60vh;
 }
 
 .txtdes1 {
@@ -104,5 +109,5 @@
 }
 
 .txtguia1 a {
-  text-decoration:none;
+  text-decoration: none;
 }
